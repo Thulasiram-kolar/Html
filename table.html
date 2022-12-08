@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        table,td,tr,th
+        {
+            border: 3px red solid;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table
+        {
+            height: 200px;
+            width: 400px;
+        }
+
+        tr:nth-child(even)
+        {
+            background-color: rgba(185, 178, 178, 0.808);
+        }
+        th
+        {
+            background-color: rgb(115, 115, 241);
+            color: aliceblue;
+        }
+        tr,caption:hover
+        {
+            background-color: aqua;
+            color: red;
+            font-size: 20px;
+        }
+        caption
+        {
+            background-color: rgb(32, 211, 32);
+            border: 3px rgb(20, 41, 226) solid;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Student Details</caption>
+        <tr>
+            <th>Sl no</th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Thulasi</td>
+            <td>Maths</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Ram</td>
+            <td>physics</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Rakesh</td>
+            <td>Biology</td>
+            <td>70</td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>

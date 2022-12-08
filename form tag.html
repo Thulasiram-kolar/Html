@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightgreen">
+    <center>
+        <font size="7" color="red">Application form</font>
+    </center>
+    <hr color="blue" width="400" size="5">
+
+    <form name="F1">
+        <table align="center">
+            <tr>
+                <td>User name</td>
+                <td><input type="text" name="txt1" size="40" maxlength="8" placeholder="Enter your name" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pwd" placeholder="Enter password" required></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="r1"> Male<input type="radio" name="r1"> Female</td>
+            </tr>
+            <tr>
+                <td>Languages</td>
+                <td><input type="checkbox" name="cb1" checked>English
+                    <input type="checkbox" name="cb1" >Hindi
+                    <input type="checkbox" name="cb1" >Kannada
+                    <input type="checkbox" name="cb1" >Telugu
+                
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea name="ta1" cols="50" rows="5" placeholder="Enter address"></textarea></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><select name="Ct1" id="">
+                    <option value="">-----select-------</option>
+                    <option value="">Bangalore</option>
+                    <option value="">Mysore</option>
+                    <option value="">Kolar</option>
+
+                </select></td>
+            </tr>
+            <tr>
+                <td>Resume</td>
+                <td><input type="file" name="res"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+                <td><input type="reset" value="Reset"></td>
+                <td><input type="button" value="Click here"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
