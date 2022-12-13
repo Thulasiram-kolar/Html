@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Grade allocation</title>
+</head>
+<body>
+    <script>
+        var name;
+        var total, average;
+        var name = prompt("Enter student name:");
+        var sub1, sub2, sub3, sub4, sub5;
+        var sub1 = parseInt(prompt("Enter marks"));
+        var sub2 = parseInt(prompt("Enter marks"));
+        var sub3 = parseInt(prompt("Enter marks"));
+        var sub4 = parseInt(prompt("Enter marks"));
+        var sub5 = parseInt(prompt("Enter marks"));
+
+
+
+
+        total=(sub1+sub2+sub3+sub4+sub5);
+        average=total/5;
+
+        document.write("Name: " + name +" Total marks: "+total+ " Avrage: " +average);
+
+        if(average>=0 && average<=34)
+        {
+            document.write("Grade D");
+        }
+        else if(average>=35 && average<=59)
+        {
+            document.write("Grade C");
+        }
+        else if(average>=60 && average<=85)
+        {
+            document.write("Grade B");
+        }
+        else 
+        {
+            document.write("Grade A");
+        }
+
+        
+
+    </script>
+</body>
+</html>

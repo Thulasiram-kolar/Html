@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //unary operator
+        //incriment--post(assign and incri)---pre(incr and assign)
+        //decriment--post(assign and decri)---pre(decr and assign)
+
+        //var a=5;
+        //var b=a++;                //b=5, then a=a+1   i.e a=5+1;
+       // var b=a++ + a++;                //b=5+6=11
+        //var c=a-- + a--;    //
+        //document.write(a+","+b);
+        //document.write(a+","+c);
+        var a=10;
+        var b=a++;
+        var c=a--;
+        var d=a++;
+        var e=a--;
+        document.write(a+", "+b+", "+c+", "+d+", "+e );
+        
+
+        //pre increment
+        var x=10;
+        var y=++x;
+        document.write("<br>" +x+", "+y);  //10, 11
+        
+        var p=5;
+        var q=(p++)+(++p)+(p--)+(--p);
+        document.write("<br>" +p+", "+q);
+
+    </script>
+</body>
+</html>
