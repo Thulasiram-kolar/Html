@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var offered_salary;
+         var Current_salary = parseInt(prompt("Enter current salary:"));
+         var Exp = parseInt(prompt("Enter current experience:"));
+
+         if(Exp>5)
+         {
+            offered_salary=(Current_salary)+(Current_salary*(15/100));
+         }
+         else
+         {
+            offered_salary=(Current_salary)+(Current_salary*(10/100));
+         }
+
+         document.write("Current salary: " +Current_salary+ "<br>Offered salary: " +offered_salary);
+    </script>
+</body>
+</html>
