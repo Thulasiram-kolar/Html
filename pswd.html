@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var pswd=11111;
+        var count=1;
+       
+        do{
+            var pd=parseInt(prompt("Enter password:"));
+            count++;
+        }while((pd!=pswd)&&(count<=5));
+
+        if(pswd==pd)
+        document.write("Login successful");
+        else
+        document.write("Max attempts reached...Reset your password");
+       
+    </script>
+</body>
+</html>

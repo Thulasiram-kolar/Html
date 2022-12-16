@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+</head>
+<body>
+    <script>
+        var pswd=11111;
+        var count=0;
+       
+        while(count<5)
+        {
+             var pd=parseInt(prompt("Enter password:"));
+            if(pswd==pd)
+            {
+                document.write("Login successful");
+                break;
+            }
+            else
+            {
+                document.write("Incorrect password--try again<br>");
+            }
+            count++;
+        }
+        if(count==5)
+        document.write("Reset your password");
+        
+            
+        
+    </script>
+</body>
+</html>
