@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+   <script>
+    var num=parseInt(prompt("Enter the number:"))
+    var Inum=num;
+    var rev=0;
+    while(num>0)
+    {
+        rev=(rev*10)+(num%10);
+        num=parseInt(num/10);
+    }
+    document.write("Reversed number of "+Inum+" is: "+rev);
+
+   </script> 
+</body>
+</html>

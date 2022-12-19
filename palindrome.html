@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Palindrome</title>
+</head>
+<body>
+   <script>
+    var num=parseInt(prompt("Enter the number:"))   //12321 palindrome
+    var Temp=num;
+    var rev=0;
+    while(num>0)
+    {
+        rev=(rev*10)+(num%10);
+        num=parseInt(num/10);
+    }
+    if(Temp==rev)
+    document.write("The number is palindrome");
+    else
+    document.write("The number is not a palindrome");
+
+   </script> 
+</body>
+</html>
+
+

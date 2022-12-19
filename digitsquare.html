@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+   <script>
+    var num=parseInt(prompt("Enter the number:"))
+    var Inum=num;
+    var square=0,rem;
+    while(num>0)
+    {
+        rem=(num%10);
+        square=square+(rem*rem);
+        num=parseInt(num/10);
+    }
+    document.write("sum of squares of digits of a number: "+square);
+
+   </script> 
+</body>
+</html>
